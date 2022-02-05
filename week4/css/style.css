@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgba(250, 235, 215);
+    font: 1em sans-serif;
+    
+}
+
+header, 
+footer {
+    background-color: #6b85a5;
+}
+
+header, main, footer {
+    max-width: 800px;
+    margin: ;
+
+}
