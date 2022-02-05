@@ -13,7 +13,12 @@ footer {
     background-color: #a9c2e2;
 }
 
-header, main, footer {
-    max-width: 800px;
+header, 
+main, 
+footer { 
     margin: 1rem auto;
+}
+
+.page {
+    max-width: 800px;
 }
