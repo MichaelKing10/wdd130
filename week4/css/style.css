@@ -11,14 +11,16 @@ body {
 header, 
 footer {
     background-color: #a9c2e2;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
 
-header, 
-main, 
-footer { 
-    margin: 1rem auto;
+a {
+    color: #ed254e
 }
 
 .page {
-    max-width: 800px;
+    max-width: 960px;
+    margin: 1rem auto;
 }
