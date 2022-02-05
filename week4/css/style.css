@@ -20,6 +20,7 @@ a {
     color: #ed254e
 }
 
+/* Class Selectors **********************************/
 .page {
     max-width: 960px;
     margin: 1rem auto;
