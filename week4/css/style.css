@@ -5,11 +5,15 @@
 
 body {
     background-color: rgb(209, 184, 152);
-    font: 1em sans-serif;
-    
+    font-size: 16px;   
 }
 
 header, 
 footer {
     background-color: #a9c2e2;
+}
+
+header, main, footer {
+    max-width: 800px;
+    margin: 1rem auto;
 }
