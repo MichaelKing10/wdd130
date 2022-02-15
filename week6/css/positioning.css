@@ -2,6 +2,7 @@
 
 /* Activity 1 Styles */
 .content1 {
+  display: grid;
     /* Activity One Container */
   }
   .red1 {

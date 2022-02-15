@@ -1,0 +1,28 @@
+/* WDD 130 Positioning Activity */
+
+/* Activity 1 Styles */
+.content1 {
+    display: grid;
+      /* Activity One Container */
+    }
+    .red1 {
+      width: 100px;
+      height: 100px;
+      background-color: red;
+    }
+    .green1 {
+      width: 100px;
+      height: 100px;
+      background-color: green;
+    }
+    .yellow1 {
+      width: 100px;
+      height: 100px;
+      background-color: gold;
+    }
+    .blue1 {
+      width: 100px;
+      height: 100px;
+      background-color: blue;
+    }
+    
