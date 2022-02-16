@@ -3,83 +3,124 @@
 /* Activity 1 Styles */
 .content1 {
   display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
     /* Activity One Container */
   }
   .red1 {
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: red;
+    grid-column: 1/3;
   }
   .green1 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: green;
   }
   .yellow1 {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 200px;
     background-color: gold;
   }
   .blue1 {
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: blue;
+    grid-column: 1/3;
   }
+ 
   
+
   /* Activity 2 Styles */
   .content2 {
+  position: relative;
+  width: 500px;
+  height: 300px;
     /* Activity Two Container */
   }
   .red2 {
+    top: 20px;
+    left: 120px;
+    position: absolute;
     width: 100px;
     height: 100px;
     background-color: red;
   }
   .green2 {
+    position: absolute;
+    top: 60px;
+    left: 170px;
     width: 100px;
     height: 100px;
     background-color: green;
   }
   .yellow2 {
+    top: 100px;
+    left: 220px;
+    position: absolute;
     width: 100px;
     height: 100px;
     background-color: gold;
   }
   .blue2 {
+    position: absolute;
+    top: 140px;
+    left: 270px;
     width: 100px;
     height: 100px;
     background-color: blue;
   }
   
+
+
+
   /* Activity 3 Styles */
   .content3 {
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     /* Activity Three Container */
   }
   .red3 {
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: red;
+    grid-column: 1/3;
   }
   .green3 {
-    width: 100px;
-    height: 100px;
+    width: 250px;
+    height: 200px;
     background-color: green;
+    justify-items: right;
   }
   .yellow3 {
-    width: 100px;
-    height: 100px;
+    top: 25%;
+    right: 0;
+    position: absolute;
+    width: 250px;
+    height: 200px;
     background-color: gold;
+    justify-items: left;
   }
   .blue3 {
-    width: 100px;
+    width: 100%;
     height: 100px;
     background-color: blue;
+    grid-column: 1/3;
   }
   
+
+
+
   /* Activity 4 Styles */
   .content4 {
     /* Activity Four Container */
     height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1/2;
   }
   .red4 {
     width: 100px;
@@ -130,26 +171,46 @@
   
   /* Activity 6 Styles */
   .content6 {
+    position: relative;
+  width: 500px;
+  height: 300px;
     /* Activity Six Container */
   }
   .red6 {
-    width: 100px;
-    height: 100px;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    position: absolute;
+    width: 60%;
+    height: 120px;
     background-color: red;
+    grid-column: 1/3;
   }
   .green6 {
-    width: 100px;
+    position: absolute;
+    z-index: 3;
+    bottom: 0;
+    left: 0;
+    width: 150px;
     height: 100px;
     background-color: green;
   }
   .yellow6 {
-    width: 100px;
-    height: 100px;
+    top: 100px;
+    right: 20px;
+    position: absolute;
+    z-index: 4;
+    width: 150px;
+    height: 70%;
     background-color: gold;
   }
   .blue6 {
-    width: 100px;
-    height: 100px;
+    position: absolute;
+    z-index: 2;
+    top: 50px;
+    left: 70px;
+    width: 70%;
+    height: 200px;
     background-color: blue;
   }
   
