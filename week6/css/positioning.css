@@ -124,7 +124,8 @@
     grid-row: 1/2;
   }
   .red4 {
-    width: 90%;
+
+    width: 100%;
     height: 125px;
     background-color: red;
     grid-column: 1/2;
@@ -133,7 +134,7 @@
   .green4 {
     grid-column: 1/2;
     grid-row: 2/3;
-    width: 90%;
+    width: 100%;
     height: 125px;
     background-color: green;
   }
@@ -141,12 +142,12 @@
     bottom: 0;
     grid-column: 1/2;
     grid-row: 3/3;
-    width: 90%;
+    width: 100%;
     height: 125px;
     background-color: gold;
   }
   .blue4 {
-    width: 90%;
+    width: 100%;
     height: 100%;
     left: 60px;
     background-color: blue;
@@ -157,27 +158,39 @@
   /* Activity 5 Styles */
   .content5 {
     /* Activity Five Container */
-    height: 400px;
+    margin-right: 15px;
+    
+   
   }
   .red5 {
-    width: 100px;
-    height: 100px;
+    top: 0;
+    width: 100%;
+    height: 90px;
     background-color: red;
+    
   }
   .green5 {
-    width: 100px;
-    height: 100px;
+    margin-right: 15px;
+    top: 90px;
+    float: left;
+    width: 180px;
+    height: 180px;
     background-color: green;
   }
   .yellow5 {
-    width: 100px;
-    height: 100px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 555px;
+    height: 350px;
     background-color: gold;
   }
   .blue5 {
-    width: 100px;
-    height: 100px;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
     background-color: blue;
+    
   }
   
   /* Activity 6 Styles */
