@@ -15,26 +15,31 @@ body {
 header {
   background-color: #a9c2e2;
   display: grid;
-  grid-template-columns: 0.5fr 1.2fr 1.3fr;
+  grid-template-columns: 0.5fr 1.5fr;
   align-items: center;
   justify-content: center;
-  margin: 5px;
-  padding: 2px;
+  padding: 0.5px;
+  margin: 0 auto;
+  max-width: 860px;
+  margin-bottom: 0.2em;
+}
+.head{
+  grid-template-columns: 1fr;
 }
 h1 {
   font-size: x-large;
 }
 h2 {
   border-spacing: 5px;
-  border-style: 1px solid;
+  border: #8c16ec solid 1px;
   border-radius: 4px;
   box-sizing: content-box;
   box-shadow: 2px 1px 5px 2px #230deb;
 }
 h3 {
-  border-width: auto;
+  margin-top: 0.5em;
   border-spacing: 3px;
-  border-style: 1px solid;
+  border:#8c16ec solid 1px;
   border-radius: 4px;
   box-sizing: content-box;
   box-shadow: 2px 1px 5px 2px #230deb;
@@ -50,18 +55,20 @@ ul {
 }
 li {
   border-spacing: 5px;
-  border-style: 1px solid;
+  border: #8c16ec solid 0.5px;
   border-radius: 4px;
   box-shadow: 2px 1px 5px 2px #e6139f;
   display: inline;
   width: 15px;
   margin: 15px;
-  padding: 3px;
+  padding: 1px;
+  align-content: flex-start;
 }
 .navigate {
   list-style: none;
   display: flex;
   text-align: center;
+  align-items: left;
 }
 .navigate li {
   flex: 1 1 auto;
@@ -134,4 +141,7 @@ a {
   margin: 5px;
   width: auto;
   height: 20%;
+}
+.center {
+  text-align: center;
 }
