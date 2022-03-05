@@ -4,8 +4,8 @@
     box-sizing: border-box;
   }
   body {
-    border: solid #b0b8e6 5px;
-    background-color: rgb(236, 220, 198);
+    border: solid #bdf53b 4px;
+    background-color: rgb(241, 117, 175);
     font-size: 16px;
   }
   .page {
@@ -13,7 +13,7 @@
     margin: 0 auto;
   }
   header {
-    background-color: #a9c2e2;
+    background-color: #e0ba0ee5;
     display: grid;
     grid-template-columns: 0.5fr 1.5fr;
     align-items: center;
@@ -21,8 +21,8 @@
     padding: 0.5px;
     margin: 0 auto;
     max-width: 860px;
-    margin-top: 0.1em;
-    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+    margin-bottom: 0.5em;
   }
   .head{
     grid-template-columns: 1fr;
@@ -31,15 +31,21 @@
     font-size: x-large;
   }
   h2 {
-    border-spacing: 5px;
+    align-content: center;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+    border-spacing: 4px;
     border: #8c16ec solid 1px;
     border-radius: 4px;
     box-sizing: content-box;
     box-shadow: 2px 1px 5px 2px #230deb;
   }
   h3 {
-    margin-top: 0.5em;
-    border-spacing: 2px;
+    margin-top: 1em;
+    margin-bottom: 0.5em;  
+  }
+
+  .other {border-spacing: 2px;
     border:#8c16ec solid 1px;
     border-radius: 4px;
     box-sizing: content-box;
@@ -57,7 +63,7 @@
     margin: 0;
     padding: 0;
   }
-  li {
+  li nav{
     border-spacing: 5px;
     border: #8c16ec solid 0.5px;
     border-radius: 4px;
@@ -66,7 +72,7 @@
     width: 15px;
     margin: 15px;
     padding: 1px;
-    align-content: flex-start;
+    
   }
   .navigate {
     list-style: none;
@@ -76,6 +82,14 @@
   }
   .navigate li {
     flex: 1 1 auto;
+    border-spacing: 5px;
+    border: #8c16ec solid 0.5px;
+    border-radius: 4px;
+    box-shadow: 2px 1px 5px 2px #e6139f;
+    display: inline;
+    width: 15px;
+    margin: 15px;
+    padding: 1px;
   }
   .navigate a {
     display: block;
