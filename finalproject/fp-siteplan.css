@@ -78,7 +78,6 @@
     list-style: none;
     display: flex;
     text-align: center;
-    align-items: left;
   }
   .navigate li {
     flex: 1 1 auto;
